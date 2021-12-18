@@ -75,4 +75,4 @@ const sineWaveRateScaler = sineWaveRateScaler(0.0001, 1, frequency, 1.0001, 1.00
 
 ## Credits
 
-Prepared by [Webplan.pro](webplan.pro) from different public sources. Feel free to use it as you need in your apps or send updates into this public repository. It's under MIT license.
+Prepared by [Webplan.pro](webplan.pro)
