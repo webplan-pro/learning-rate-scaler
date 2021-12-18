@@ -1,0 +1,52 @@
+{
+  "name": "learning-rate-scaler",
+  "version": "1.0.0",
+  "description": "Learning rate scaler callback for @tensorflow/tfjs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webplan-pro/learning-rate-scaler.git"
+  },
+  "keywords": [
+    "learning rate callback",
+    "learning rate scaler callback",
+    "callback",
+    "scaler",
+    "tensorflow",
+    "machine learning",
+    "deep learning",
+    "neural networks training callback",
+    "neural networks training callback for @tensorflow/tfjs",
+    "sine wave callback",
+    "sine wave callback for @tensorflow/tfjs",
+    "tfjs",
+    "code"
+  ],
+  "author": "Artūras Sotničenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webplan-pro/learning-rate-scaler/issues"
+  },
+  "homepage": "https://github.com/webplan-pro/learning-rate-scaler#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  },
+  "peerDependencies": {
+    "@tensorflow/tfjs": "^3.x"
+  },
+  "peerDependenciesMeta": {
+    "@tensorflow/tfjs": {
+      "optional": true
+    }
+  }
+}
