@@ -70,7 +70,7 @@ This would produce a sine-wave-looking learning-rate curve with decaying of the 
 Also it's possible to decay epoch-wise also by providing
 
 ```
-const sineWaveRateScaler = sineWaveRateScaler(0.0001, 1, frequency, 1.0001, )
+const sineWaveRateScaler = sineWaveRateScaler(0.0001, 1, frequency, 1.0001, 1.0001)
 ```
 
 ## Credits
