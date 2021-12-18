@@ -45,6 +45,7 @@ const history = await layersModel.fitDataset(trainingDataset, {
 ```
 
 This would produce a sine-wave-looking learning-rate curve for each sample in the batch (for batch size of 2048 items with default settings).
+
 ![sine-wave-learning-rate](docs/sine-wave-learning-rate.png "sine-wave-learning-rate")
 
 - example 2
@@ -63,6 +64,7 @@ const history = await layersModel.fitDataset(trainingDataset, {
 ```
 
 This would produce a sine-wave-looking learning-rate curve with decaying of the initial max learning rate for each sample in the batch (for batch size of 2048 items with default settings).
+
 ![sine-wave-learning-rate](docs/sine-wave-learning-rate.png "sine-wave-learning-rate")
 
 Also it's possible to decay epoch-wise also by providing
